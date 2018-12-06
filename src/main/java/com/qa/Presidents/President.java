@@ -32,7 +32,7 @@ public class President {
 	}
 	
     public static void add(President p){
-    	App.PresidentArrayList.add(p);
+    	PresidentCollection.PresidentArrayList.add(p);
     }
     
     @Override
@@ -41,11 +41,11 @@ public class President {
     }
     
 	public static ArrayList<President> getPresidentArrayList() {
-		return App.PresidentArrayList;
+		return PresidentCollection.PresidentArrayList;
 	}
 
 	public static void setPresidentArrayList(ArrayList<President> presidentArrayList) {
-		App.PresidentArrayList = presidentArrayList;
+		PresidentCollection.PresidentArrayList = presidentArrayList;
 	}
 	
 	public String getWholeName() {
